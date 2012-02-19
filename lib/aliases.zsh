@@ -22,3 +22,10 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+#git
+alias gpr='git pull --rebase'
+
+#zsh
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+alias srczsh='source ~/.zshrc'
