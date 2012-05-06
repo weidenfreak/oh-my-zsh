@@ -26,9 +26,10 @@ alias afind='ack-grep -il'
 alias gpr='git pull --rebase'
 
 #zsh
-alias zshconfig="subl ~/.zshrc"
-alias ohmyzsh="subl ~/.oh-my-zsh"
+alias zshconfig="mvim ~/.zshrc"
+alias ohmyzsh="mvim ~/.oh-my-zsh"
 alias srczsh='source ~/.zshrc'
+
 #bundler
 alias b="bundle"
 alias bc="b console"
