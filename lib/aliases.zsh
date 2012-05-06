@@ -33,3 +33,6 @@ alias srczsh='source ~/.zshrc'
 alias b="bundle"
 alias bc="b console"
 alias be="bundle exec"
+
+#vim
+alias v="mvim"
