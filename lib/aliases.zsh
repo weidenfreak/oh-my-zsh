@@ -29,3 +29,7 @@ alias gpr='git pull --rebase'
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias srczsh='source ~/.zshrc'
+#bundler
+alias b="bundle"
+alias bc="b console"
+alias be="bundle exec"
