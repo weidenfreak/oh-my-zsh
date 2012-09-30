@@ -35,5 +35,8 @@ alias b="bundle"
 alias bc="b console"
 alias be="bundle exec"
 
+#rails
+alias rs="rails server"
+
 #vim
 alias v="mvim"
