@@ -33,6 +33,7 @@ alias srczsh='source ~/.zshrc'
 #bundler
 alias b="bundle"
 alias bc="b console"
+alias bu="bundle update"
 alias be="bundle exec"
 
 #rails
