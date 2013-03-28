@@ -38,8 +38,14 @@ alias bc="b console"
 alias bu="bundle update"
 alias be="bundle exec"
 
+#rake spec
+alias bers="bundle exec rake spec"
+alias beers="bundle exec rake spec"
+alias rsi="bundle exec rake spec:integration"
+
 #rails
 alias rs="rails server"
+alias rc="rails console"
 
 #vim
 alias v="mvim"
