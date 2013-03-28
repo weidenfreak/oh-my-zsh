@@ -49,3 +49,6 @@ alias rc="rails console"
 
 #vim
 alias v="mvim"
+
+# pipe for us with vim
+alias rpipe='mkdir -p tmp && if [ ! -p tmp/rspec-test-pipe ]; then mkfifo tmp/rspec-test-pipe; fi && echo "Now listening to tmp/rspec-test-pipe" && while true; do sh -c "$(cat tmp/rspec-test-pipe)"; done'
